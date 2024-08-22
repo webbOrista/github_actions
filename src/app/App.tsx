@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import styles from './app.module.scss';
+import useMetrika from '../hooks';
 const Modal = React.lazy(
 	() => import('../components/modal' /*webpackChunkName: "modal" */)
 );
