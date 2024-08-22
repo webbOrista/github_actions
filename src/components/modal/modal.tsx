@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from './modal.module.scss';
-import {useMetrika} from ../hooks/useMetrika;
+import {useMetrika} from '../hooks/useMetrika';
 export default function Modal() {
 	const [isOpen, setIsOpen] = useState<boolean>(false);
 	const { ym, gtag } = useMetrika();
