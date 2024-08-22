@@ -21,9 +21,7 @@ export default function Modal() {
 				{isOpen && (
 					<div className={styles.container}>
 						<button onClick={
-							() => setIsOpen(false)
-							() => (window as any).gtag('event', 'add_to_cart', 
-							 {send_to: 'G-XC3QQ6PPZB', // указываем ID потока event_name: 'add_to_cart',})
+							() => setIsOpen(false)				
 							}>
 							Закрыть модальное окно
 						</button>
